@@ -1,0 +1,6 @@
+apmd_flags=-L
+obsdfreqd_flags=-T 85,55
+sshd_flags=NO
+xenodm_flags=
+
+pkg_scripts=obsdfreqd messagebus
