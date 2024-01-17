@@ -70,7 +70,7 @@ AddToFunc MoveAndRaise I Focus
 
 DestroyFunc RaiseAndResize
 AddToFunc RaiseAndResize
-+ M Resize direction SE
++ I Resize direction SE
 + M Raise
 
 AddToFunc RaiseAndFocus
