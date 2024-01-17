@@ -19,6 +19,8 @@ Style * Colorset 17
 
 Style * Title, Handles, !MWMFunctions, NoDecorHint
 Style * CascadePlacement
+Style * SloppyFocus
+Style * PositionPlacement UnderMouse
 Style * MouseFocusClickRaises
 Style * EWMHUseStackingOrderHints
 Style * DecorateTransient
@@ -68,7 +70,7 @@ AddToFunc MoveAndRaise I Focus
 
 DestroyFunc RaiseAndResize
 AddToFunc RaiseAndResize
-+ I Resize
++ M Resize direction SE
 + M Raise
 
 AddToFunc RaiseAndFocus
