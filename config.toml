@@ -1,0 +1,39 @@
+theme = "hex_steel"
+
+[editor]
+true-color = true
+cursorline = true
+line-number = "absolute"
+idle-timeout = 0
+bufferline = "multiple"
+auto-format = true
+
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "position-percentage", "spacer"]
+left = ["mode", "spinner", "file-modification-indicator", "register"]
+center = ["file-name", "version-control"]
+separator = "|"
+
+[editor.lsp]
+auto-signature-help = true
+display-messages = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+a = ["append_mode", "collapse_selection"]
+x = "extend_line"
+C-s = ":w"
+
+[keys.normal.space]
+w = ":write"
+q = ":quit"
