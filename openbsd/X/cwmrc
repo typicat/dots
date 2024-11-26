@@ -1,22 +1,22 @@
 sticky yes
 snapdist 4
-gap 0 0 0 0
-moveamount 6 
+gap 23 0 0 0
+moveamount 6
+borderwidth 1
+ignore polybar
 
-ignore xclock
-ignore xload
-
+color activeborder gray30
+color inactiveborder gray20
 color menubg gray60
 color menufg gray10 
 fontname "fixed:pixelsize=14"
 
 unbind-key all
 
-bind-key 4-Return xterm 
-bind-key 4-f "chrome"
-bind-key 4-r "rofi -show drun" 
-bind-key 4M-l xlock
-bind-key 4S-s flameshot gui
+bind-key 4-Return alacritty
+bind-key 4-f firefox
+bind-key 4-d "rofi -show drun" 
+bind-key 4S-s "scrot -f -s"
 
 bind-key 4S-r restart
 bind-key 4S-q quit
@@ -72,4 +72,4 @@ bind-mouse 4-3 window-resize
 bind-mouse 4-2 window-lower
 bind-mouse 4S-2 window-hide
 
-command " xterm" "kitty"
+command terminal alacritty

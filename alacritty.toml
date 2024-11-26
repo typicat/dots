@@ -1,10 +1,6 @@
-import = [
-    "~/.config/alacritty/themes/themes/everforest_dark.toml"
-]
-
 [font]
-normal.family = "CaskaydiaMono Nerd Font"
-size=9
+normal.family = "terminus"
+size=8
 
 [window]
 padding.x = 10

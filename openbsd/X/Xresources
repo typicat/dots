@@ -6,12 +6,7 @@ Xft.lcdfilter : lcddefault
 Xft.rgba      : rgb
 Xft.dpi       : 96
 
-XIdle*position : sw
-XIdle*delay    : 1
-XIdle*timeout  : 300
-
-!XTerm*faceName  : xft:Cousine:pixelsize=11
-XTerm*faceName          : xft:CaskaydiaCove Nerd Font:pixelsize=13
+XTerm*faceName          : xft:terminus:pixelsize=13
 XTerm*allowBoldFonts    : false
 XTerm*borderWidth       : 0
 XTerm*internalBorder    : 10 
@@ -26,37 +21,5 @@ XTerm*highlightSelection: true
 XTerm*metaSendsEscape   : true
 XTerm*altSendsEscape    : true
 XTerm*loginshell        : true
-
-! set theme here
-#include ".local/papercolor-light.xr"
-
-XLock.dpmsoff       : 1
-XLock.description   : off
-XLock.echokeys      : off
-XLock.info          :
-XLock.mode          : blank
-XLock.username      : username:
-XLock.password      : password:
-XLock.font          : -misc-fixed-medium-r-normal-*-15-*-*-*-*-*-iso10646-1
-XLock.planfont      : -misc-fixed-medium-r-normal-*-13-*-*-*-*-*-iso10646-1
-
-XLoad*background    : #757575
-XLoad*reverseVideo  : true
-XLoad*update        : 2 
-XLoad*padding       : 1 
-XLoad*highlight     : white
-XLoad*geometry      : 90x40-50-0
-XLoad*showlabel     : false
-XLoad*label         :
-XLoad*borderwidth   : 0
-
-XClock*geometry     : -2-2
-XClock*height       : 12
-XClock*brief        : true
-XClock*analog       : false
-XClock*twentyfour   : true
-XClock*render       : false
-XClock*padding      : 0 
-XClock*background   : #757575
-XClock*foreground   : white
-XClock*borderwidth  : 0
+XTerm*background : #323232
+XTerm*foreground : #efefef
